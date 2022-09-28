@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#table {
+  width: 400px;
+  max-width: 500px;
+  border: 1px solid black;
+}
+
+#table > .row {
+  border-bottom: 1px solid black;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row:hover {
+  background-color: rgb(139, 134, 134);
+}
+
+.page-numbers {
+  text-align: center;
+  border: 1px solid black;
+  width: 40px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.but-container {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+}
+
+.prev,
+.next {
+  width: 150px;
+}
+
+.range {
+  align-self: center;
+}
